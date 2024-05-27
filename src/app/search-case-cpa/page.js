@@ -1,4 +1,4 @@
-import SearchCaseCPA from '@/components/searchCaseCPA/searchCaseCPA'
+import SearchCaseCPA from '@/components/searchCaseCPA/SearchCaseCPA'
 import React from 'react'
 
  const page = () => {
