@@ -29,19 +29,19 @@ const Sontanic = () => {
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 font-medium bg-white py-2">Case Name</td>
-                            <td className="border border-gray-200 px-4 font-semibold bg-white py-2">Sontanic Engine Lub Vehicles</td>
+                            <td className="border border-gray-200 px-4 font-semibold bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='Sontanic Engine Lub Vehicles'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 font-medium px-4 bg-white py-2">Case ID</td>
-                            <td className="border border-gray-200 font-semibold px-4 bg-white py-2">ABCH6543988</td>
+                            <td className="border border-gray-200 font-semibold px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='ABCH6543988'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 font-medium px-4 bg-white py-2">Allocation Date</td>
-                            <td className="border border-gray-200 font-semibold px-4 bg-white py-2">20/5/2024</td>
+                            <td className="border border-gray-200 font-semibold px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='20/5/2024'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 font-medium px-4 bg-white py-2">Month</td>
-                            <td className="border border-gray-200 font-semibold px-4 bg-white py-2">May</td>
+                            <td className="border border-gray-200 font-semibold px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='May'/></td>
                         </tr>
                     </tbody>
                 </table>
@@ -67,15 +67,15 @@ const Sontanic = () => {
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 font-medium bg-white py-2">Loan Amount (in Rs)</td>
-                            <td className="border border-gray-200 px-4 py-2 bg-white">Enter Loan Amount</td>
+                            <td className="border border-gray-200 px-4 py-2 bg-white"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='Enter Location'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 bg-white font-medium py-2">Tenure</td>
-                            <td className="border border-gray-200 px-4 bg-white py-2">Enter Tenure</td>
+                            <td className="border border-gray-200 px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='Enter State'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 bg-white font-medium py-2">ROI</td>
-                            <td className="border border-gray-200 px-4 bg-white py-2">Enter ROI</td>
+                            <td className="border border-gray-200 px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='Enter Constitution'/></td>
                         </tr>
                     </tbody>
                 </table>
@@ -91,15 +91,15 @@ const Sontanic = () => {
                     <tbody>
                         <tr>
                             <td className="border border-gray-200 px-4 py-2 bg-white w-[50%] font-medium">Location</td>
-                            <td className="border border-gray-200 px-4 py-2 bg-white ">Enter Location</td>
+                            <td className="border border-gray-200 px-4 py-2 bg-white "><input className=' w-full p-2 focus:outline-none' type="text" placeholder='Enter Turnover (In Lakhs)'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 py-2 bg-white font-medium">State</td>
-                            <td className="border border-gray-200 px-4 bg-white py-2">Enter State</td>
+                            <td className="border border-gray-200 px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='Enter CIBIL Score'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 bg-white py-2 font-medium">Constitution</td>
-                            <td className="border border-gray-200 px-4 bg-white py-2">Enter Constitution</td>
+                            <td className="border border-gray-200 px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='Enter GSTIN'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 bg-white py-2 font-medium">Nature of Business</td>
@@ -153,19 +153,19 @@ const Sontanic = () => {
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 py-2 bg-white font-medium">Turnover (in Lakhs)</td>
-                            <td className="border border-gray-200 px-4 bg-white py-2">Enter Turnover (In Lakhs)</td>
+                            <td className="border border-gray-200 px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='20/5/2024'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 bg-white py-2 font-medium">CIBl Score (prop)</td>
-                            <td className="border border-gray-200 px-4 bg-white py-2">Enter CIBIL Score</td>
+                            <td className="border border-gray-200 px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='20/5/2024'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 bg-white py-2 font-medium">GSTIN</td>
-                            <td className="border border-gray-200 px-4 bg-white py-2">Enter GSTIN</td>
+                            <td className="border border-gray-200 px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='20/5/2024'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 bg-white py-2 font-medium">PAN NO</td>
-                            <td className="border border-gray-200 px-4 bg-white py-2">Enter PAN Number</td>
+                            <td className="border border-gray-200 px-4 bg-white py-2"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='20/5/2024'/></td>
                         </tr>
                     </tbody>
                 </table>
@@ -181,11 +181,11 @@ const Sontanic = () => {
                     <tbody>
                         <tr>
                             <td className="border border-gray-200 px-4 bg-white py-2 w-[50%] font-medium">Query Reasons</td>
-                            <td className="border border-gray-200 px-4 bg-white py-2 font-semibold">Enter Query Reason, Lorem ipsum dummy text for rejection reason. This field contains maximum characters. Three lines are the character limit and hieght is double the above single rows. Gqwe hgchgy jcwhucgugug. jbwcjbjujghh ujgcjgjg hvbcjhbjgbjg ujgcvjhkjs yhfsygu jgcjgh.</td>
+                            <td className="border border-gray-200 px-4 bg-white py-2 font-semibold"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='Enter Query Reason, Lorem ipsum dummy text for rejection reason. This field contains maximum characters. Three lines are the character limit and hieght is double the above single rows. Gqwe hgchgy jcwhucgugug . jbwcjbjujghh ujgcjgjg hvbcjhbjgbjg ujgcvjhkjs yhfsygu jgcjgh.'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 py-8 bg-white font-medium">Rejection Reasons</td>
-                            <td className="border border-gray-200 px-4 py-2 bg-white">Enter Rejection Reason</td>
+                            <td className="border border-gray-200 px-4 py-2 bg-white"><input className=' w-full p-2 focus:outline-none' type="text" placeholder='Enter Rejection Reason'/></td>
                         </tr>
                         <tr>
                             <td className="border border-gray-200 px-4 py-2 bg-white font-medium">Credit Manager Name</td>
