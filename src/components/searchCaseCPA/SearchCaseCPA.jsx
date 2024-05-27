@@ -1,14 +1,12 @@
-import React from "react";
-
-SearchCaseCPA("use client");
+"use client";
 import React from "react";
 import { Table } from "antd";
-import { Dropdown, Input } from "./InputCards";
 import {
   CheckCircleOutlined,
   InfoCircleOutlined,
   CloseCircleOutlined,
 } from "@ant-design/icons";
+import { Input, Dropdown } from "./InputCard";
 
 const columns = [
   {
@@ -18,7 +16,6 @@ const columns = [
   {
     title: " Class Name",
     dataIndex: "name",
-    render: (text) => <a>{text}</a>,
   },
   {
     title: "Partner",
@@ -153,7 +150,7 @@ const SearchCaseCPA = () => (
         <Input options={from} />
       </div>
       <div>
-        <button className=" bg-blue-400 text-white px-2 py-1 rounded-sm text-sm opacity-75">
+        <button className=" bg-blue-400 text-white px-2 py-1 rounded-sm text-sm">
           Add New Case
         </button>
       </div>
