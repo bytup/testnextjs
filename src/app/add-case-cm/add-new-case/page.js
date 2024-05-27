@@ -5,7 +5,6 @@ import LoanTable from '@/components/addCaseCM/LoanTable';
 import BusinessTable from '@/components/addCaseCM/BusinessTable';
 import DecisionTable from '@/components/addCaseCM/DecisionTable';
 import CreditTable from '@/components/addCaseCM/CreditTable';
-import { Button } from 'antd';
 
 const Page = () => {
   const caseDetails = [
