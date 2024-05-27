@@ -31,7 +31,7 @@ export const Dropdown = ({ options }) => {
 export const Input = ({ options }) => {
   return (
     <div className="">
-      <select className=" border-none rounded-sm text-sm bg-gray-100 py-2 px-4 text-ce text-slate-600">
+      <select className=" border-none rounded-sm text-sm bg-gray-100 py-2 px-4 text-slate-600">
         {options.map((option, index) => (
           <option key={index} value={option.value}>
             {option.label}
